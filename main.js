@@ -1,3 +1,6 @@
-function sayHello () {
-    alert('Welcome Javascript Programming!');
-}
+let a = 'time';
+let b = 'Time';
+
+let result = (a == b);
+
+document.write(result);

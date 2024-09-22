@@ -1,9 +1,7 @@
-function getSum ( first, second ) {
-    let result = first * second;
-    console.log(`The Result is ${first} ${second} = ${result}`);
-}
+const array = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 
-let first = 3;
-let second = 4;
+array[0] = 0;
 
-getSum(first, second);
+array.push(11);
+
+console.log(array);

@@ -1,6 +1,9 @@
-let a = 'time';
-let b = 'Time';
+function getSum ( first, second ) {
+    let result = first * second;
+    console.log(`The Result is ${first} ${second} = ${result}`);
+}
 
-let result = (a == b);
+let first = 3;
+let second = 4;
 
-document.write(result);
+getSum(first, second);
